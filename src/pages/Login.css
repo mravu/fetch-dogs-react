@@ -1,0 +1,82 @@
+/* Styling for the container that holds the login form */
+.login-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the form */
+    align-items: center;      /* Vertically center the form */
+    height: 100vh;            /* Full height of the viewport */
+    background-color: #f4f4f9; /* Light background color for the page */
+    font-family: 'Arial', sans-serif; /* Ensure a clean font */
+  }
+  
+  /* Style for the login form */
+  .login-form {
+    background-color: #fff;  /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;       /* Rounded corners for the form */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow around the form */
+    width: 100%;
+    max-width: 400px;         /* Maximum width for the form */
+    text-align: center;       /* Center text inside the form */
+  }
+  
+  /* Heading Style */
+  .login-container h2 {
+    font-size: 24px;          /* Large font for the title */
+    margin-bottom: 20px;      /* Space below the title */
+    color: #333;              /* Dark text color */
+  }
+  
+  /* Style for error messages */
+  .login-container p {
+    color: red;               /* Red color for error text */
+    margin-bottom: 15px;      /* Space below the error message */
+  }
+  
+  /* Style for input fields */
+  .login-form input {
+    width: 100%;              /* Full width for the input fields */
+    padding: 12px;            /* Padding inside the inputs */
+    margin-bottom: 15px;      /* Space between inputs */
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 4px;      /* Rounded corners for the inputs */
+    font-size: 16px;          /* Readable font size */
+    box-sizing: border-box;  /* Ensure padding doesn't affect width */
+  }
+  
+  /* Style for the submit button */
+  .login-form button {
+    width: 100%;              /* Button takes the full width */
+    padding: 12px;            /* Padding inside the button */
+    background-color: #007bff; /* Primary blue color */
+    color: white;             /* White text color */
+    border: none;             /* No border */
+    border-radius: 4px;       /* Rounded corners */
+    font-size: 16px;          /* Font size for the button */
+    cursor: pointer;         /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for the button */
+  .login-form button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .login-form {
+      padding: 15px;
+    }
+    
+    .login-container h2 {
+      font-size: 20px;
+    }
+    
+    .login-form input {
+      font-size: 14px; /* Adjust input font size on smaller screens */
+    }
+    
+    .login-form button {
+      font-size: 14px; /* Adjust button font size on smaller screens */
+    }
+  }
+  

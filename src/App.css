@@ -1,0 +1,89 @@
+/* Style for the entire application container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Light background */
+  height: 100vh; /* Full screen height */
+}
+
+/* Style for the button that generates the match */
+button {
+  padding: 12px 20px;         /* Add padding inside the button */
+  font-size: 16px;            /* Make the text readable */
+  background-color: #007bff; /* Primary blue color */
+  color: white;              /* White text color */
+  border: none;              /* Remove default border */
+  border-radius: 4px;        /* Rounded corners for the button */
+  cursor: pointer;           /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  margin: 20px 0;             /* Space above and below the button */
+  width: 200px;               /* Fixed width for the button */
+  text-align: center;         /* Center align the button text */
+}
+
+/* Style when the button is hovered */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Disabled button style */
+button:disabled {
+  background-color: #ccc;    /* Gray color when disabled */
+  cursor: not-allowed;       /* Change cursor to not-allowed when button is disabled */
+}
+
+/* Container for the Routes */
+.routes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;           /* Space between the button and routes */
+  width: 100%;
+}
+
+/* Page styling for Login, DogSearch, and Match */
+.page-container {
+  background-color: #fff;    /* White background for pages */
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;          /* Maximum width for the content */
+  border-radius: 8px;         /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  margin-top: 20px;           /* Space between pages */
+}
+
+/* Styling for login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  button {
+    width: 80%;               /* Make button full width on smaller screens */
+    padding: 10px 15px;       /* Adjust padding for smaller screens */
+    font-size: 14px;           /* Adjust font size */
+  }
+
+  .app-container {
+    padding: 15px;            /* Reduce padding on smaller screens */
+  }
+
+  .routes-container {
+    margin-top: 20px;          /* Less margin between button and routes */
+  }
+
+  .page-container {
+    width: 100%;               /* Full width for smaller screens */
+    padding: 15px;             /* Less padding for smaller screens */
+  }
+}
