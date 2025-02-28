@@ -1,5 +1,5 @@
 // src/App.tsx
-import { BrowserRouter as Router, Route, Routes, Navigate, useNavigate } from "react-router-dom";
+import {  Route, Routes, Navigate, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Login from "./pages/Login";
 import DogSearch, { Dog } from "./pages/Dogs";

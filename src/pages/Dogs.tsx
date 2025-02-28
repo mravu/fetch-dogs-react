@@ -54,6 +54,7 @@ const DogSearch: React.FC<DogSearchProps> = ({onFavoritesChange}) => {
       const ids = response.resultIds;
 
       setDogIds(ids);
+      console.log(dogIds);
 
       const batchedDogs: Dog[] = [];
       const batchSize = 100;
