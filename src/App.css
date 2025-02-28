@@ -48,7 +48,7 @@ button:disabled {
 
 /* Page styling for Login, DogSearch, and Match */
 .page-container {
-  background-color: #fff;    /* White background for pages */
+ 
   padding: 20px;
   width: 100%;
   max-width: 1200px;          /* Maximum width for the content */

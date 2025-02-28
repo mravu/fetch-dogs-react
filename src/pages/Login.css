@@ -4,7 +4,6 @@
     justify-content: center;  /* Horizontally center the form */
     align-items: center;      /* Vertically center the form */
     height: 100vh;            /* Full height of the viewport */
-    background-color: #f4f4f9; /* Light background color for the page */
     font-family: 'Arial', sans-serif; /* Ensure a clean font */
   }
   
